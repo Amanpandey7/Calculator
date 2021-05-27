@@ -1,0 +1,35 @@
+#heading{
+    display: flex;
+    justify-content: center;
+    color: darksalmon;
+    background-color: honeydew;
+
+}
+#calculator{
+    display: flex;
+    
+    flex-direction: column;
+}
+#keys{
+    display: flex;
+    flex-direction: row;
+}
+#screen{
+    height: 100px;
+    width: 606px;
+    border-style: solid;
+}
+#container{
+    display: flex;
+    justify-content: center;
+}
+#number{
+    width: 400px;
+    height: 400px;
+    border-style: solid;
+}
+#symbol{
+    width: 200px;
+    height: 400px;
+    border-style: solid;
+}
