@@ -18,32 +18,32 @@
             
                 <div id="symbol">
                     <div id="row1">
-                        <button id="del" class="button">DEL</button>
-                        <button id="ac" class="button">AC</button>
+                        <button id="del" class="button" onclick="deleteDigit()">DEL</button>
+                        <button id="ac" class="button" onclick="clearAll()">AC</button>
                     </div>
                     <div id ="row2">
-                        <button id="seven" class="button">7</button>
-                        <button id="eight" class="button">8</button>
-                        <button id="nine" class="button">9</button>
-                        <button id="divide" class="button">%</button>
+                        <button id="seven" class="button" onclick="inputNum(this.id)">7</button>
+                        <button id="eight" class="button" onclick="inputNum(this.id)">8</button>
+                        <button id="nine" class="button" onclick="inputNum(this.id)">9</button>
+                        <button id="divide" class="button" onclick="inputOp(this.id)">%</button>
                     </div>
                     <div id="row3">
-                        <button id="four" class="button">4</button>
-                        <button id="five" class="button">5</button>
-                        <button id="six" class="button">6</button>
-                        <button id="multiply" class="button">x</button>
+                        <button id="four" class="button" onclick="inputNum(this.id)">4</button>
+                        <button id="five" class="button" onclick="inputNum(this.id)">5</button>
+                        <button id="six" class="button" onclick="inputNum(this.id)">6</button>
+                        <button id="multiply" class="button" onclick="inputOp(this.id)">x</button>
                     </div>
                     <div id = "row4">
-                        <button id="one" class="button">1</button>
-                        <button id="two" class="button">2</button>
-                        <button id="three" class="button">3</button>
-                        <button id="subtract" class="button">-</button>
+                        <button id="one" class="button" onclick="inputNum(this.id)">1</button>
+                        <button id="two" class="button" onclick="inputNum(this.id)">2</button>
+                        <button id="three" class="button" onclick="inputNum(this.id)">3</button>
+                        <button id="subtract" class="button" onclick="inputOp(this.id)">-</button>
                     </div>
                     <div id="row5">
-                        <button id="dot" class="button">.</button>
-                        <button id="zero" class="button">0</button>
-                        <button id="equal" class="button">=</button>
-                        <button id="plus" class="button">+</button>
+                        <button id="dot" class="button" onclick="inputSym(this.id)">.</button>
+                        <button id="zero" class="button" onclick="inputNum(this.id)">0</button>
+                        <button id="equal" class="button" onclick="inputOp(this.id)">=</button>
+                        <button id="add" class="button" onclick="inputOp(this.id)">+</button>
                     </div>
                 </div>
                
